@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">aula2802</string>
+    <string name="titulo">Lista de Exercícios</string>
+
+    <string name="t_calculadora">Calculadora</string>
+
+    <string name="t_mercado">Compra de Mercado</string>
+
+</resources>

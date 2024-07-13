@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="calcular"
+    tools:context=".calculadora">
+
+    <TextView
+        android:id="@+id/calculadora"
+        android:layout_width="409dp"
+        android:layout_height="39dp"
+        android:text="Calculadora"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="416dp"
+        android:layout_height="57dp"
+        android:onClick="calcular"
+        android:text="Calcular"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="417dp"
+        android:layout_height="38dp"
+        android:text="Resultado"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <EditText
+        android:id="@+id/edtValor1"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/edtValor2"
+        android:layout_width="423dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="60dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cor quando o botão está habilitado -->
+    <item android:color="#2F46C6" android:state_enabled="true" />
+    <!-- Cor quando o botão está desabilitado -->
+    <item android:color="#989494" android:state_enabled="false" />
+</selector>
